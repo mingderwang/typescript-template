@@ -1,0 +1,27 @@
+{
+  "name": "typescript-template",
+  "version": "0.0.0",
+  "description": "Typescript sample repo",
+  "author": "Ming-der Wang; <mingderwang@gmail.com>",
+  "repository": "mingderwang/typescript-template",
+  "main": "index.html",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel serve index.html",
+    "dev": "parcel index.html",
+    "build": "parcel build dist index.html",
+    "watch": "parcel watch index.html",
+    "deploy:ipfs": "node scripts/ipfs.js",
+    "deploy:ipfs-infura": "node scripts/ipfs.js",
+    "deploy:ipfs-localhost": "node scripts/ipfs-localhost.js",
+    "predeploy": "npm run build",
+    "deploy": "npm run predeploy && gh-pages -d dist"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3",
+    "ipfs-http-client": "49.0.0",
+    "parcel": "^2.0.0-rc.0",
+    "parcel-bundler": "^1.12.5",
+    "typescript": "^4.3.5"
+  }
+}
