@@ -1,0 +1,1 @@
+{"version":3,"sources":["app/App.ts"],"names":[],"mappings":";AAAA,OAAO,OAAS,WACd,SAAS,KAAK,YAAc","file":"App.508a85f7.js","sourceRoot":"..","sourcesContent":["window.onload = () => {\n  document.body.textContent = 'hello world');\n};\n"]}
