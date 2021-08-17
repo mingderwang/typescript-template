@@ -14,8 +14,7 @@
     "deploy:ipfs": "node scripts/ipfs.js",
     "deploy:ipfs-infura": "node scripts/ipfs.js",
     "deploy:ipfs-localhost": "node scripts/ipfs-localhost.js",
-    "predeploy": "npm run build",
-    "deploy": "npm run predeploy && gh-pages -d dist",
+    "deploy": "gh-pages -d dist",
     "clean": "rimraf .cache dist node_modules"
   },
   "devDependencies": {

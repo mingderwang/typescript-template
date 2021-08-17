@@ -1,4 +1,5 @@
 # deploy to ipfs/ipns (with local ipfs node)
+
 ```
 ➜  t yarn deploy:ipfs
 yarn run v1.22.10
@@ -20,7 +21,9 @@ It is recommended that you share the IPNS link so that people always see the new
 
 ✨  Done in 93.83s.
 ```
+
 # deploy to ipfs only (with infura)
+
 ```
 yarn deploy:ipfs
 yarn run v1.22.10
